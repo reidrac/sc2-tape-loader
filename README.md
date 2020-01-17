@@ -53,7 +53,7 @@ Then build your `cas` file, for example:
 
 ```
 tools/mkcas/mkcas.py --name mygame mygame.cas ascii loader/loader.bas
-tools/mkcas//mkcas.py --add --name loading --addr 0x8000 --exec 0x8000 mygame.cas binary loader/loader.bin
+tools/mkcas/mkcas.py --add --name loading --addr 0x8000 --exec 0x8000 mygame.cas binary loader/loader.bin
 tools/mkcas/mkcas.py --add --addr 0x8000 mygame.cas custom-header mygame.bin
 ```
 
