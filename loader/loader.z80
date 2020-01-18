@@ -4,6 +4,45 @@ include "msx.inc"
 org 0x8000
 
 loader:
+	di
+	ld sp, 0xf380
+	ei
+
+	call RSLREG
+	rrca
+	rrca
+	rrca
+	rrca
+	rrca
+	rrca
+	and 3
+	ld c, a
+	add a, 0xc1
+	ld l, a
+	ld h, 0xfc
+	ld a, (hl)
+	and 0x80
+	or c
+	ld c, a
+	inc l
+	inc l
+	inc l
+	inc l
+	ld a, (hl)
+	rrca
+	rrca
+	rrca
+	rrca
+	and 0x0c
+	or c
+	push af
+	ld h, 0x40
+	call ENASLT
+	pop af
+	ld h, 0x80
+	call ENASLT
+
+	; so we have: ROM RAM RAM RAM
 	ld a, 2
 	call CHGMOD
 

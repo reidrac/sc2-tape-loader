@@ -5,7 +5,7 @@ This is a simple 2 stage tape loader for MSX 8-bit microcomputers.
  - **Stage 1**: loader with an APLIB compressed SC2 image.
  - **Stage 2**: the actual program to load.
 
-There's no memory management so it can handle up to 32K (it is less, actually; see limits).
+It can handle up to 32K (it is less, actually; see limits).
 
 # License
 
