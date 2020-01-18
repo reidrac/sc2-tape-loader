@@ -2,3 +2,7 @@
 *~
 *.bin
 *.o
+tools/apultra/apultra
+tools/rasm/rasm
+data/screen.sc2
+bin/
