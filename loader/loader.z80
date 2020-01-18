@@ -91,11 +91,11 @@ loader:
 	call ENASCR
 
         ld hl, stage2
-        ld de, 0xf200
+        ld de, 0xf31c
         ld bc, image - stage2
         ldir
 
-        jp 0xf200
+        jp 0xf31c
 
 include "aplib.z80"
 

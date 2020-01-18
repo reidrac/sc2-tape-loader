@@ -41,9 +41,9 @@ The final program:
 
  - load address: 0x8000
  - exec address: 0x8000
- - max length: 29184 bytes
+ - max length: 29468 bytes
 
-You can change/improve this, of course! Use the source :)
+The stage 2 loader is currently limited to 100 bytes.
 
 ## Usage
 

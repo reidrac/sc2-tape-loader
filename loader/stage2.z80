@@ -1,7 +1,7 @@
 
 include "msx.inc"
 
-org 0xf200
+org 0xf31c
 
 start:
 	call TAPION
