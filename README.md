@@ -28,10 +28,11 @@ Common tools:
 
 Less common tools:
 
- - rasm assembler
- - apultra compressor
+ - rasm assembler: http://www.roudoudou.com/rasm/index.php
+ - apultra compressor: https://github.com/emmanuel-marty/apultra
+ - mkcas: https://github.com/reidrac/mkcas
 
-Both are open source and a copy is included in here for your convenience.
+All three are open source and a copy is included in here for your convenience.
 
 ## Limitations
 
